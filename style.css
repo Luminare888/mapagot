@@ -44,8 +44,8 @@ body {
     overflow: hidden;
     position: relative;
     float: left;
-    left: -20px;
-    top: 225px;
+    left: -25px;
+    top: 215px;
 }
 
 .boton:hover {
