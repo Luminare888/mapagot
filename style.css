@@ -26,7 +26,7 @@ body {
     height: 520px;
     background: url(https://i.imgur.com/hipaNtm.png);
     background-size: cover;
-    border: 4px double #ae9568;
+    border: 1px solid #ae9568;
     display: flex;
     justify-content: center;
     align-items: center;
