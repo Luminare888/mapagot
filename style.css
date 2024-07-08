@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url(fonts/GOT.ttf);
+  }
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: #11141a63;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background: #29303ba9;
+    border-radius: 40px;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.base {
+    width: 800px;
+    height: 520px;
+    background: url(https://i.imgur.com/hipaNtm.png);
+    background-size: cover;
+    border: 4px double #ae9568;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.boton {
+    width: 40px;
+    height: 40px;
+    background: #;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    left: -202px;
+    top: 170px;
+}
+
+.boton:hover {
+    transition: all 0.8s;
+    left: 0px;
+    top: 0px;
+    width: 800px;
+    height: 520px;
+    background-image: url(https://i.imgur.com/a1UvoNG.png);
+    background-size: cover;
+
+}
